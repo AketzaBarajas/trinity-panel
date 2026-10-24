@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-24T12:00:00Z",
+  "title": "Design System: trinity-panel",
+  "extensions": {
+    "colorMeta": {
+      "console-black": { "role": "neutral", "displayName": "Console Black", "canonical": "#030405", "light": "#f5f6f5", "tonalRamp": ["#000000", "#030405", "#0a0d0e", "#161b1c", "#2a3132", "#4d5856", "#a9b4b2", "#f2f5f4"] },
+      "raised-graphite": { "role": "neutral", "displayName": "Raised Graphite", "canonical": "#0a0d0e", "light": "#ffffff", "tonalRamp": ["#030405", "#0a0d0e", "#121718", "#1c2324", "#2c3536", "#4d5856", "#7c8987", "#a9b4b2"] },
+      "sunken-black": { "role": "neutral", "displayName": "Sunken Black", "canonical": "#000000", "light": "#eceeed", "tonalRamp": ["#000000", "#030405", "#0a0d0e", "#161b1c", "#2a3132", "#4d5856", "#a9b4b2", "#eceeed"] },
+      "glass-slab": { "role": "neutral", "displayName": "Glass Slab", "canonical": "rgba(16, 22, 23, 0.72)", "light": "rgba(255, 255, 255, 0.82)" },
+      "hairline": { "role": "neutral", "displayName": "Hairline", "canonical": "rgba(255, 255, 255, 0.07)", "light": "rgba(4, 24, 22, 0.08)" },
+      "hairline-structure": { "role": "neutral", "displayName": "Structure Hairline", "canonical": "rgba(255, 255, 255, 0.12)", "light": "rgba(4, 24, 22, 0.14)" },
+      "hairline-strong": { "role": "neutral", "displayName": "Strong Hairline", "canonical": "rgba(255, 255, 255, 0.22)", "light": "rgba(4, 24, 22, 0.26)" },
+      "strand-neutral": { "role": "neutral", "displayName": "Neutral Strand", "canonical": "rgba(220, 235, 233, 0.16)", "light": "rgba(4, 24, 22, 0.16)" },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#f2f5f4", "light": "#0b1312", "tonalRamp": ["#0b1312", "#2a3132", "#4d5856", "#7c8987", "#a9b4b2", "#c9d1cf", "#e3e8e7", "#f2f5f4"] },
+      "ink-secondary": { "role": "neutral", "displayName": "Ink Secondary", "canonical": "#a9b4b2", "light": "#3f4b49" },
+      "ink-tertiary": { "role": "neutral", "displayName": "Ink Tertiary", "canonical": "#7c8987", "light": "#5c6967" },
+      "ink-faint": { "role": "neutral", "displayName": "Ink Faint (decorative only)", "canonical": "#4d5856", "light": "#9aa5a3" },
+      "live-teal": { "role": "primary", "displayName": "Live Teal", "canonical": "#2dd4bf", "light": "#0d8a7c", "tonalRamp": ["#04221e", "#08443d", "#0d6b60", "#0d8a7c", "#14b8a6", "#2dd4bf", "#7eeadb", "#ccfbf3"] },
+      "live-teal-soft": { "role": "primary", "displayName": "Live Teal Soft", "canonical": "rgba(45, 212, 191, 0.14)", "light": "rgba(13, 138, 124, 0.1)" },
+      "go-green": { "role": "secondary", "displayName": "Go Green", "canonical": "#1fa374", "light": "#11865a", "tonalRamp": ["#04110b", "#0a3524", "#0e5a3d", "#11865a", "#1fa374", "#4cc193", "#8fdcbc", "#d3f4e6"] },
+      "go-ink": { "role": "secondary", "displayName": "Go Ink", "canonical": "#04110b", "light": "#ffffff" },
+      "bad-coral": { "role": "neutral", "displayName": "Bad Coral", "canonical": "#f0675f", "light": "#c2332b" },
+      "bad-soft": { "role": "neutral", "displayName": "Bad Soft", "canonical": "rgba(240, 103, 95, 0.1)", "light": "rgba(194, 51, 43, 0.08)" },
+      "discord-blurple": { "role": "neutral", "displayName": "Discord Blurple (sign-in only)", "canonical": "#5865f2", "light": "#4752c4" },
+      "member-verde": { "role": "tertiary", "displayName": "Verde (key #1FA374)", "canonical": "#1fa374", "light": "#11865a", "cssVar": "--m-1FA374", "tonalRamp": ["#04110b", "#0a3524", "#0e5a3d", "#11865a", "#1fa374", "#4cc193", "#8fdcbc", "#d3f4e6"] },
+      "member-azul": { "role": "tertiary", "displayName": "Azul (key #3A70F0)", "canonical": "#3a70f0", "light": "#2c5fd6", "cssVar": "--m-3A70F0", "tonalRamp": ["#0a1430", "#132a66", "#1e45a3", "#2c5fd6", "#3a70f0", "#6f97f5", "#a9c1f9", "#e0e9fd"] },
+      "member-orquidea": { "role": "tertiary", "displayName": "Orquídea (key #CB62C2)", "canonical": "#cb62c2", "light": "#a8459f", "cssVar": "--m-CB62C2", "tonalRamp": ["#2a0d27", "#511b4c", "#7d2f76", "#a8459f", "#cb62c2", "#db8fd4", "#eabde6", "#f8e8f6"] },
+      "member-oro": { "role": "tertiary", "displayName": "Oro (key #B0900C)", "canonical": "#b0900c", "light": "#9c6500", "cssVar": "--m-B0900C", "tonalRamp": ["#241c02", "#4a3a05", "#735a08", "#9c6500", "#b0900c", "#cfb24a", "#e3d190", "#f6efd3"] }
+    },
+    "typographyMeta": {
+      "greeting": { "displayName": "Greeting", "purpose": "Page h1 in Inter light italic (30 px dashboard/settings, 36 px welcome, 44 px login). The console's one human voice." },
+      "display-number": { "displayName": "Display Number", "purpose": "Own weekly total in the glass slab. Inter tabular." },
+      "metric-number": { "displayName": "Metric Number", "purpose": "Bottom-strip metric values. Inter tabular." },
+      "title": { "displayName": "Title", "purpose": "Slab and section headings; block h3 at 12 px/600 in ink-secondary." },
+      "body": { "displayName": "Body", "purpose": "Default UI text at 13 px." },
+      "label": { "displayName": "Label", "purpose": "Small sentence-case captions under or beside numbers. Never uppercase, never an eyebrow." },
+      "clock": { "displayName": "Clock", "purpose": "JetBrains Mono for ticking clocks only: header stopwatch and 'Ahora mismo' timers. Durations use Inter tabular." }
+    },
+    "shadows": [
+      { "name": "glass-slab", "value": "inset 0 1px 0 var(--slab-edge), 0 24px 60px -20px rgba(0, 0, 0, 0.5); backdrop-filter: blur(18px) saturate(1.2)", "purpose": "The 'Tu semana' panel only; the system's single glass surface." },
+      { "name": "live-halo", "value": "0 0 0 3px color-mix(in srgb, var(--c) 30%, transparent)", "purpose": "Live member dots; beats out to 6 px. Stopwatch dot uses 0 0 0 3px var(--live-soft)." },
+      { "name": "identity-ring", "value": "0 0 0 1.5px var(--bg), 0 0 0 3px var(--c)", "purpose": "Member avatar ring and selected color swatch (2px / 3.5px variant)." },
+      { "name": "focus-ring-input", "value": "0 0 0 3px var(--live-soft)", "purpose": "Input focus, with border in --live." },
+      { "name": "strand-glow", "value": "SVG feGaussianBlur stdDeviation 3 at 50% opacity", "purpose": "Soft glow under data strands only; never chrome." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(0.23, 1, 0.32, 1)", "purpose": "Press feedback (scale 0.97, 140ms), progress fills (600ms), entrances." },
+      { "name": "ease-in-out", "value": "cubic-bezier(0.77, 0, 0.175, 1)", "purpose": "Symmetric transitions." },
+      { "name": "isolate", "value": "opacity/stroke 220ms ease", "purpose": "Hover-isolate a member's strands; others dim to 0.12, nodes to 0.4." },
+      { "name": "strand-pulse", "value": "stroke-dasharray 2 26, 2.4s linear infinite", "purpose": "Ink dash running along a live session's strand." },
+      { "name": "orb-spin", "value": "rotate 160s linear infinite (60s when live)", "purpose": "Particle spiral rotation; stops under reduced motion." }
+    ],
+    "breakpoints": [
+      { "name": "stage-compact", "value": "700px (container width)" },
+      { "name": "mobile", "value": "640px" },
+      { "name": "header-compact", "value": "720px" },
+      { "name": "welcome-stack", "value": "860px" },
+      { "name": "login-stack", "value": "900px" },
+      { "name": "console-stack", "value": "1100px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "Default solid button: raised graphite, 1 px structure border.",
+      "html": "<button class=\"ds-btn\">Cerrar sesión</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; gap: 8px; height: 36px; padding: 0 14px; border-radius: 8px; border: 1px solid var(--line-2); background: var(--bg-raised); color: var(--ink); font: 500 13px/1 var(--font-sans); cursor: pointer; transition: transform 140ms var(--ease-out), border-color 150ms ease; } .ds-btn:hover { border-color: var(--line-3); } .ds-btn:active { transform: scale(0.97); } .ds-btn:focus-visible { outline: 1.5px solid var(--live); outline-offset: 2px; }"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ink-filled button for the main form submit.",
+      "html": "<button class=\"ds-btn-primary\">Guardar cambios</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; height: 36px; padding: 0 14px; border-radius: 8px; border: 1px solid var(--ink); background: var(--ink); color: var(--bg); font: 600 13px/1 var(--font-sans); cursor: pointer; transition: transform 140ms var(--ease-out), background-color 150ms ease; } .ds-btn-primary:hover { background: color-mix(in srgb, var(--ink) 88%, var(--bg)); } .ds-btn-primary:active { transform: scale(0.97); } .ds-btn-primary:focus-visible { outline: 1.5px solid var(--live); outline-offset: 2px; }"
+    },
+    {
+      "name": "Go Button",
+      "kind": "button",
+      "refersTo": "button-go",
+      "description": "Go Green; only for starting the stopwatch.",
+      "html": "<button class=\"ds-btn-go\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" aria-hidden=\"true\"><path d=\"M2 1.2v7.6L8.6 5z\" fill=\"currentColor\"/></svg>Iniciar</button>",
+      "css": ".ds-btn-go { display: inline-flex; align-items: center; gap: 6px; height: 36px; padding: 0 14px; border-radius: 8px; border: 1px solid var(--go); background: var(--go); color: var(--go-ink); font: 600 13px/1 var(--font-sans); cursor: pointer; transition: transform 140ms var(--ease-out), background-color 150ms ease; } .ds-btn-go:hover { background: color-mix(in srgb, var(--go) 88%, white); } .ds-btn-go:active { transform: scale(0.97); } .ds-btn-go:focus-visible { outline: 1.5px solid var(--live); outline-offset: 2px; }"
+    },
+    {
+      "name": "Quiet Icon Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Transparent icon button (theme toggle).",
+      "html": "<button class=\"ds-btn-quiet\" aria-label=\"Cambiar a modo claro\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\"><path d=\"M20.5 13.2A8.5 8.5 0 1 1 10.8 3.5a6.6 6.6 0 0 0 9.7 9.7z\"/></svg></button>",
+      "css": ".ds-btn-quiet { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 8px; border: 1px solid transparent; background: transparent; color: var(--ink-2); cursor: pointer; transition: background-color 150ms ease, color 150ms ease; } .ds-btn-quiet:hover { color: var(--ink); background: var(--line); } .ds-btn-quiet:focus-visible { outline: 1.5px solid var(--live); outline-offset: 2px; }"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Sunken well with teal focus ring.",
+      "html": "<input class=\"ds-input\" type=\"text\" placeholder=\"web, guías, vídeo…\" />",
+      "css": ".ds-input { height: 40px; width: 100%; padding: 0 12px; border-radius: 8px; border: 1px solid var(--line-2); background: var(--bg-sunken); color: var(--ink); font: 400 14px var(--font-sans); transition: border-color 140ms ease, box-shadow 140ms ease; } .ds-input::placeholder { color: var(--ink-3); } .ds-input:focus { outline: none; border-color: var(--live); box-shadow: 0 0 0 3px var(--live-soft); }"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "description": "Opaque header with text nav; current page underlined on the bottom hairline.",
+      "html": "<header class=\"ds-bar\"><nav class=\"ds-nav\"><a href=\"#\" aria-current=\"page\">Panel</a><a href=\"#\">Ajustes</a></nav></header>",
+      "css": ".ds-bar { height: 56px; padding: 0 28px; display: flex; align-items: center; background: var(--bg); border-bottom: 1px solid var(--line); } .ds-nav { display: flex; align-self: stretch; gap: 22px; } .ds-nav a { position: relative; display: flex; align-items: center; font-size: 13px; color: var(--ink-3); text-decoration: none; transition: color 150ms ease; } .ds-nav a:hover, .ds-nav a[aria-current='page'] { color: var(--ink); } .ds-nav a[aria-current='page']::after { content: ''; position: absolute; left: 0; right: 0; bottom: -1px; height: 1px; background: var(--ink); } .ds-nav a:focus-visible { outline: 1.5px solid var(--live); outline-offset: 2px; }"
+    },
+    {
+      "name": "Stopwatch Pill",
+      "kind": "custom",
+      "refersTo": "stopwatch-pill",
+      "description": "Header stopwatch: status dot, mono ticking clock, Go pill button.",
+      "html": "<div class=\"ds-watch ds-running\"><span class=\"ds-watch-dot\"></span><span class=\"ds-watch-time\">00:42:17</span><button class=\"ds-watch-btn\">Parar</button></div>",
+      "css": ".ds-watch { display: inline-flex; align-items: center; gap: 12px; height: 40px; padding: 0 4px 0 14px; border-radius: 999px; border: 1px solid var(--line-2); background: var(--bg-raised); } .ds-watch-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--ink-4); } .ds-running .ds-watch-dot { background: var(--live); box-shadow: 0 0 0 3px var(--live-soft); } .ds-watch-time { font: 500 15px var(--font-mono); font-variant-numeric: tabular-nums; letter-spacing: -0.01em; color: var(--ink-2); min-width: 74px; } .ds-running .ds-watch-time { color: var(--ink); } .ds-watch-btn { height: 32px; padding: 0 14px; border: 0; border-radius: 999px; background: var(--go); color: var(--go-ink); font: 600 13px var(--font-sans); cursor: pointer; transition: transform 140ms var(--ease-out); } .ds-watch-btn:active { transform: scale(0.96); } .ds-watch-btn:focus-visible { outline: 1.5px solid var(--live); outline-offset: 2px; }"
+    },
+    {
+      "name": "Member Node",
+      "kind": "custom",
+      "refersTo": "member-node",
+      "description": "Flow-stage member node; border takes the member color when isolated.",
+      "html": "<button class=\"ds-node\" style=\"--c: var(--m-1FA374)\"><span class=\"ds-who\"><span class=\"ds-dot\"></span><span class=\"ds-name\">Ake</span><span class=\"ds-role\">web</span></span><span class=\"ds-meta\"><span class=\"ds-hours\">2h 15m</span><span>/ 4 h</span></span></button>",
+      "css": ".ds-node { display: flex; flex-direction: column; justify-content: center; gap: 3px; width: 200px; height: 62px; padding: 0 14px; border-radius: 8px; border: 1px solid var(--line-2); background: color-mix(in srgb, var(--bg-raised) 92%, transparent); text-align: left; font-family: var(--font-sans); transition: border-color 180ms ease, opacity 220ms ease; } .ds-node:hover, .ds-node:focus-visible { border-color: var(--c); outline: none; } .ds-who { display: flex; align-items: center; gap: 7px; } .ds-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--c); } .ds-name { font-weight: 600; font-size: 13px; color: var(--ink); } .ds-role { font-size: 12px; color: var(--ink-3); } .ds-meta { display: flex; align-items: baseline; gap: 6px; font-size: 12px; color: var(--ink-3); } .ds-hours { font-size: 17px; font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }"
+    },
+    {
+      "name": "Glass Slab",
+      "kind": "card",
+      "refersTo": "glass-slab",
+      "description": "The single glass surface: 'Tu semana' with total, progress track and goal tick.",
+      "html": "<aside class=\"ds-slab\" style=\"--c: var(--m-1FA374)\"><div class=\"ds-slab-head\"><h2>Tu semana</h2><span>mínimo 4 h</span></div><span class=\"ds-mine\">2h 15m</span><div class=\"ds-track\"><span class=\"ds-fill\" style=\"transform: scaleX(0.375)\"></span><span class=\"ds-goal\"></span></div><p class=\"ds-line\">Te faltan 1 h 45 min para el mínimo.</p></aside>",
+      "css": ".ds-slab { display: flex; flex-direction: column; gap: 12px; width: 340px; padding: 22px; border-radius: 18px; border: 1px solid var(--line-2); background: var(--slab); backdrop-filter: blur(18px) saturate(1.2); box-shadow: inset 0 1px 0 var(--slab-edge), 0 24px 60px -20px rgba(0,0,0,0.5); font-family: var(--font-sans); color: var(--ink); } .ds-slab-head { display: flex; justify-content: space-between; align-items: baseline; font-size: 12px; color: var(--ink-3); } .ds-slab-head h2 { margin: 0; font-size: 15px; font-weight: 600; color: var(--ink); } .ds-mine { font-size: 44px; font-weight: 500; line-height: 1; letter-spacing: -0.04em; font-variant-numeric: tabular-nums; } .ds-track { position: relative; height: 4px; border-radius: 4px; background: var(--line-2); } .ds-fill { position: absolute; inset: 0; border-radius: inherit; background: var(--c); transform-origin: left center; transition: transform 600ms var(--ease-out); } .ds-goal { position: absolute; top: -4px; left: 66.7%; width: 1px; height: 12px; background: var(--ink-2); } .ds-line { margin: 0; font-size: 13px; color: var(--ink-2); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Night Console",
+    "overview": "A premium ops command center for exactly three people. The ground is near-pure black; all structure is 1 px hairlines in white at low opacity; color appears only where there is data or identity. The week is drawn, not tiled: one hairline strand per real session runs from each member node into a particle orb and fans out to the specialties. The category standard (orb, strands, glass side panel, sparkline metrics) is the chosen world, built to the craft bar of the two reference consoles (Control AI Policy Platform, Cortex XSIAM).\n\nDensity is calm and precise: 13 px body, small sentence-case labels under exact numbers, generous dark space around the stage. Motion is slow and functional: the orb's particles rotate (160 s idle, 60 s when someone is live), a running session sends a pulse along its strand, hovering a member isolates their strands end to end. Light mode is a full, separately tuned theme, not an inversion; dark is default.",
+    "keyCharacteristics": [
+      "Near-black ground, hairline-only structure, no tile grid of KPI cards.",
+      "Color is data: member colors on strands, dots, bars, avatar rings; nothing else is colored.",
+      "One accent (live teal) for the orb and live state; one action green for starting the stopwatch.",
+      "Exactly one glass surface.",
+      "Inter everywhere; JetBrains Mono only for ticking clocks."
+    ],
+    "rules": [
+      { "name": "The Color-Is-Data Rule", "body": "Member colors appear only in data (strands, bars, sparklines, orb particles, pips, swatches) and identity marks (dots, avatar rings, the triangle logo). Chrome, text and surfaces stay neutral.", "section": "colors" },
+      { "name": "The One Accent Rule", "body": "Live Teal belongs to the orb and live state (plus focus/caret). Go Green belongs to starting the stopwatch. Neither decorates anything else.", "section": "colors" },
+      { "name": "The Hex-Key Rule", "body": "Never render a stored member hex directly; always go through `memberColor()` so the light theme gets its own validated value.", "section": "colors" },
+      { "name": "The Ticking-Only Mono Rule", "body": "JetBrains Mono (`.mono`) is only for clocks that tick (header stopwatch, \"Ahora mismo\" timers). Durations and totals (\"0h 00m\", \"4 / 4\") use Inter with tabular figures (`.num`).", "section": "typography" },
+      { "name": "The Label-Under-Number Rule", "body": "Numbers lead; a small sentence-case label sits beside or beneath them. No eyebrows, no kickers, no uppercase tracked labels.", "section": "typography" },
+      { "name": "The Single Glass Rule", "body": "The \"Tu semana\" slab is the only glass surface. The header is opaque `--bg` with a 1 px `--line` bottom hairline; nodes, buttons and inputs are solid.", "section": "elevation" },
+      { "name": "The No-Glow-On-Chrome Rule", "body": "Glow belongs to data (strands, orb, live dots). Buttons, nav and panels never glow.", "section": "elevation" },
+      { "name": "The Honest Empty Rule", "body": "An empty data channel is drawn as a solid 1 px `--line-2` structure hairline, never as data and never in a member color. Each real session gets its own strand in the member's color.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do draw structure with 1 px hairlines (`--line`, `--line-2`, `--line-3`) on the near-black ground.",
+      "Do route every member color through `memberColor()` / `--m-<HEX>`.",
+      "Do use `.num` (Inter tabular) for durations and counts, `.mono` only for ticking clocks.",
+      "Do put a small sentence-case label under or beside every number.",
+      "Do switch any strand visualization to a list with the same data below 700 px of container width.",
+      "Do keep empty states honest: zero is shown as zero, empty channels as solid `--line-2` hairlines."
+    ],
+    "donts": [
+      "Don't add a second glass surface or make the header translucent.",
+      "Don't use member colors, Live Teal or Go Green on chrome, text or decoration.",
+      "Don't set durations in JetBrains Mono.",
+      "Don't use eyebrows, kickers or uppercase tracked labels.",
+      "Don't build KPI card grids; metrics sit in a hairline-divided strip.",
+      "Don't glow chrome; glow is for data and live state.",
+      "Don't use `--ink-4` for readable text, including placeholders."
+    ]
+  }
+}

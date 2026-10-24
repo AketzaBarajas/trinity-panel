@@ -1,0 +1,18 @@
+# Cloudflare Pages: cabeceras de seguridad y caché.
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+  X-Robots-Tag: noindex, nofollow
+
+# Archivos con hash en el nombre: no cambian nunca.
+/_app/immutable/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# El service worker siempre fresco, para que las versiones nuevas lleguen.
+/service-worker.js
+  Cache-Control: no-cache
+
+/_app/version.json
+  Cache-Control: no-cache

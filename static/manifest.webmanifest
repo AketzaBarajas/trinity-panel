@@ -1,0 +1,23 @@
+{
+	"id": "/",
+	"name": "trinity-panel",
+	"short_name": "TRINITY",
+	"description": "Control horario de TRINITY: cronómetro, sesiones y reglas del pacto.",
+	"lang": "es",
+	"dir": "ltr",
+	"start_url": "/",
+	"scope": "/",
+	"display": "standalone",
+	"background_color": "#030405",
+	"theme_color": "#030405",
+	"categories": ["productivity"],
+	"icons": [
+		{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+		{ "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+		{ "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+	],
+	"shortcuts": [
+		{ "name": "Sesiones", "short_name": "Sesiones", "url": "/sesiones", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+		{ "name": "Pacto", "short_name": "Pacto", "url": "/pacto", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] }
+	]
+}
